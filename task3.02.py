@@ -72,11 +72,11 @@ def add_contact(fields):
                 company_dict = {}
                 for sub_field in field.values():
                     sub_value = input(f"Enter {sub_field}: ")
-                    company_dict{sub_field} = sub_value
-                    contact{field} = company_dict
+                    company_dict[sub_field] = sub_value
+                    contact[field] = company_dict
             else:
                 value=input(f"Enter {field}:")
-                contact{field}=value
+                contact[field]=value
         else:
             sub_dict = {}
             sub_fields = list(field.values())[0]
